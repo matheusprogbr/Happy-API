@@ -34,8 +34,8 @@ The purpose of this project is to help people find orphanages near their homes a
 
 It was my first time building a completely fullstack and mobile App with TypeScript.
 
-Click here to see the **Backend**: <br>
-Click here to see the **Web App**: <br>
+Click here to see the **Backend**: [Happy API](https://github.com/matheusprogbr/Happy-API) <br>
+Click here to see the **Web App**: [Happy Web](https://github.com/matheusprogbr/Happy-Web) <br>
 Click here to see the **Mobile App**: <br>
 
 ---
