@@ -1,8 +1,10 @@
 import express from "express";
 const routes = express.Router();
 
-routes.get("/", (req, res) => {
-  return res.json({ message: "Hello Mundo!!" });
-});
+import OrphanagesController from "./controllers/OrphanagesController";
+
+routes.get("/orphanages", OrphanagesController.index);
+routes.get("/orphanages/:id", OrphanagesController.show);
+routes.post("/orphanages", OrphanagesController.create);
 
 export default routes;
